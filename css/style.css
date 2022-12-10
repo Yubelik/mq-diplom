@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  width: 0;
+}
 @font-face {
   font-family: 'Open Sans';
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
@@ -33,7 +36,9 @@ ul {
 ul {
   list-style-type: none;
 }
-
+button{
+  border: 0;
+}
 .header-wrp {
   margin: 0 auto;
   display: block;
@@ -367,7 +372,8 @@ main {
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-
+  outline: none;
+  border: 0;
   width: 272px;
   height: 47px;
   background-color: #f4f7f6;
@@ -435,6 +441,7 @@ main {
   background-color: #b59f5b;
   text-transform: uppercase;
   text-align: center;
+  border: 0;
 }
 .sidebar-title-gat {
   padding-top: 62px;
